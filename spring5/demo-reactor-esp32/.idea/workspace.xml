@@ -2,19 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7f8968-8f8b-4bb3-8491-8e2dd76e61f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/reactive-streaming-demos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/reactive-streaming-demos_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/reactive-streaming-demos_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactive-streaming-demos/src/main/resources/static/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/12-reactive-streaming-demos_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/12-reactive-streaming-demos_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/iproduct/demos/spring/streamingdemos/ReactorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/iproduct/demos/spring/streamingdemos/ReactorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_micrometer_micrometer_core_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_codec_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_codec_socks_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_common_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_handler_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_handler_proxy_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_transport_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_transport_native_epoll_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_netty_netty_transport_native_unix_common_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_projectreactor_ipc_reactor_netty_0_7_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_projectreactor_reactor_core_3_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__io_projectreactor_reactor_test_3_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_hdrhistogram_HdrHistogram_2_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_6_0_7_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_actuator_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_reactor_netty_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_webflux_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_restdocs_spring_restdocs_core_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_restdocs_spring_restdocs_mockmvc_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_security_spring_security_core_5_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_security_spring_security_test_5_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_security_spring_security_web_5_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_spring_aop_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_spring_beans_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_spring_context_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_spring_core_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_spring_expression_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_spring_jcl_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_spring_test_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_spring_web_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_spring_webflux_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/libraries/Gradle__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/reactive-streaming-demos_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/reactive-streaming-demos_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/reactive-streaming-demos_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/reactive-streaming-demos_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/12-reactive-streaming-demos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/out/production/classes/org/iproduct/demos/spring/streamingdemos/filters/ForwardingWebFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/out/production/classes/org/iproduct/demos/spring/streamingdemos/filters/ForwardingWebFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/src/main/java/org/iproduct/demos/spring/streamingdemos/configuration/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/src/main/java/org/iproduct/demos/spring/streamingdemos/configuration/WebConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -25,6 +86,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -32,11 +96,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/udp/UDPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="100" column="40" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+            <state relative-caret-position="-897">
+              <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,12 +109,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-924">
+              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactiveStreamingDemosApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="1290">
+              <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,11 +169,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactiveStreamingDemosApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactorDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/udp/AddressInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/udp/UDPServer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactorDemo.java" />
       </list>
     </option>
   </component>
@@ -215,12 +312,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555662463152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555688842054" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../webflux-boot-rabbitmq" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15728477" />
     <property name="project.structure.side.proportion" value="0.23772103" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -243,7 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReactiveStreamingDemosApp">
+  <component name="RunManager" selected="Application.ReactorDemo">
     <configuration name="ReactiveStreamingDemosApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.iproduct.demos.spring.streamingdemos.ReactiveStreamingDemosApp" />
       <module name="demo-reactor_main" />
@@ -350,11 +447,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReactorDemo" />
         <item itemvalue="Application.ReactiveStreamingDemosApp" />
         <item itemvalue="Spring Boot.ReactiveStreamingDemosApp (1)" />
         <item itemvalue="Application.UDPServer (1)" />
         <item itemvalue="Application.UDPServer" />
-        <item itemvalue="Application.ReactorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +473,7 @@
       <workItem from="1555486093193" duration="5712000" />
       <workItem from="1555598118866" duration="11051000" />
       <workItem from="1555645401120" duration="4350000" />
-      <workItem from="1555655595805" duration="4916000" />
+      <workItem from="1555655595805" duration="9622000" />
     </task>
     <task id="LOCAL-00001" summary="reactive webflux demo - user management with security added">
       <created>1527399441835</created>
@@ -389,22 +486,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38380000" />
+    <option name="totallyTimeSpent" value="43086000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="935" extended-state="7" />
+    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18001205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18001205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6351183" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23785803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactiveStreamingDemosApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/filters/ForwardingWebFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -562,40 +653,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/udp/UDPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="1290">
+          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/udp/UDPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="100" column="40" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+        <state relative-caret-position="-924">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactiveStreamingDemosApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

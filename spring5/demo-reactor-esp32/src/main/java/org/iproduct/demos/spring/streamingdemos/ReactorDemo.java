@@ -34,18 +34,18 @@ public class ReactorDemo {
         Thread.sleep(1500);
         flux.subscribe(data -> System.out.println("Subscriber 2:" + data));
 
-//        Flux<Integer> ints = Flux.range(1, 10)
+//        Flux<Integer> ints = Flux.range(1, 12)
 //                .map(i -> {
 //                    if (i <= 11) return i;
-//                    throw new RuntimeException("Got to 5");
+//                    throw new RuntimeException("Got to 11");
 //                });
-//
+////
 //        ints.subscribe(System.out::println,
 //                error -> System.err.println("Error: " + error),
 //                () -> {
 //                    System.out.println("Done");
 //                });
-//
+
 //        Flux<String> flux = Flux.generate(
 //                () -> 0,
 //                (state, sink) -> {
@@ -61,19 +61,19 @@ public class ReactorDemo {
 //                    if (i == 10) sink.complete();
 //                    return state;
 //                });
-        Flux<String> flux2 = Flux.generate(
-                AtomicLong::new,
-                (state, sink2) -> {
-                    long i = state.getAndIncrement();
-                    sink2.next("3 x " + i + " = " + 3*i);
-                    if (i == 10) sink2.complete();
-                    return state;
-                }, (state) -> System.out.println("state: " + state));
-        flux2.subscribe(i -> System.out.println(i),
-                error -> System.err.println("Error: " + error),
-                () -> {
-                    System.out.println("Done");
-                });
+//        Flux<String> flux2 = Flux.generate(
+//                AtomicLong::new,
+//                (state, sink2) -> {
+//                    long i = state.getAndIncrement();
+//                    sink2.next("3 x " + i + " = " + 3*i);
+//                    if (i == 10) sink2.complete();
+//                    return state;
+//                }, (state) -> System.out.println("state: " + state));
+//        flux2.subscribe(i -> System.out.println(i),
+//                error -> System.err.println("Error: " + error),
+//                () -> {
+//                    System.out.println("Done");
+//                });
 
         Thread.sleep(4000);
     }
