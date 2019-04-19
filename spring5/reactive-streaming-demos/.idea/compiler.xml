@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="12-reactive-streaming-demos_main" target="1.10" />
       <module name="12-reactive-streaming-demos_test" target="1.10" />
+      <module name="reactive-streaming-demos_main" target="1.10" />
+      <module name="reactive-streaming-demos_test" target="1.10" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -98,8 +98,7 @@ public class ReactiveIotEventsHandler {
 
                             return obj.toJSONString();
                         })
-                        , String.class)
-                        .onErrorResume(e -> ServerResponse.badRequest().build());
+                        , String.class);
     }
 
 }

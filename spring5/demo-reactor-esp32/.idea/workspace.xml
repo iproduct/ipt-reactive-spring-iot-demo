@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7f8968-8f8b-4bb3-8491-8e2dd76e61f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/reactive-streaming-demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/reactive-streaming-demos_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/reactive-streaming-demos_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/12-reactive-streaming-demos_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/modules/12-reactive-streaming-demos_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/12-reactive-streaming-demos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-streaming-demos/out/production/classes/org/iproduct/demos/spring/streamingdemos/filters/ForwardingWebFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-streaming-demos/out/production/classes/org/iproduct/demos/spring/streamingdemos/filters/ForwardingWebFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -24,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="101" selection-start-line="101" selection-end-line="102" />
+            <state relative-caret-position="532">
+              <caret line="100" column="40" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="168">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -67,16 +75,16 @@
         <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/ReactorDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/udp/AddressInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/udp/UDPServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="99" />
-    <option name="y" value="18" />
-    <option name="width" value="1401" />
-    <option name="height" value="822" />
+    <option name="x" value="147" />
+    <option name="y" value="27" />
+    <option name="width" value="2103" />
+    <option name="height" value="1233" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,7 +215,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555659932509" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555662463152" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../webflux-boot-rabbitmq" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15728477" />
@@ -368,7 +376,7 @@
       <workItem from="1555486093193" duration="5712000" />
       <workItem from="1555598118866" duration="11051000" />
       <workItem from="1555645401120" duration="4350000" />
-      <workItem from="1555655595805" duration="3783000" />
+      <workItem from="1555655595805" duration="4916000" />
     </task>
     <task id="LOCAL-00001" summary="reactive webflux demo - user management with security added">
       <created>1527399441835</created>
@@ -381,10 +389,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37247000" />
+    <option name="totallyTimeSpent" value="38380000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
+    <frame x="-7" y="-7" width="1721" height="935" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18001205" />
@@ -574,22 +582,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="101" selection-start-line="101" selection-end-line="102" />
+        <state relative-caret-position="168">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/iproduct/demos/spring/streamingdemos/handlers/ReactiveIotEventsHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="532">
+          <caret line="100" column="40" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
