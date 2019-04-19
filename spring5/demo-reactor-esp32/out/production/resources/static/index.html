@@ -13,8 +13,10 @@
     } </style>
 </head>
 <body>
-<!--<h2>Distance: <span id="distance"></span></h2>
-<h2>Button: <span id="button"></span></h2>-->
+<div style="position:absolute; left:0; top: 0;">
+    <h2>Distance: <span id="distance"></span></h2>
+    <h2>Button: <span id="button"></span></h2>
+</div>
 <script src="js/three.js"></script>
 <script src="js/stats.min.js"></script>
 <script>
@@ -84,8 +86,8 @@
             arrowX.setLength(300 - state.accel.x * 5);
             arrowY.setLength(100 + state.accel.z * 5);
             arrowZ.setLength(800 - state.accel.y * 5);
-            // document.getElementById('distance').innerHTML = state.distance;
-            // document.getElementById('button').innerHTML = state.button;
+            document.getElementById('distance').innerHTML = state.distance;
+            document.getElementById('button').innerHTML = state.button;
         }
 
         renderer.render(scene, camera);
