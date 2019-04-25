@@ -5,8 +5,8 @@
 //#include <L3G.h>
 
 // WiFi connection data
-const char* ssid = "OFFICE27";
-const char* password = "game1234";
+const char* ssid = "your-wifi-network-ssid";
+const char* password = "your-wifi-network-password";
 const char* udp_server_ip = "192.168.137.1";
 unsigned int udp_server_port = 4210;
 

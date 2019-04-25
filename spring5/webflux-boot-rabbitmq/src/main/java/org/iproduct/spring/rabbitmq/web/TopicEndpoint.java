@@ -1,5 +1,6 @@
 package org.iproduct.spring.rabbitmq.web;
 
+import lombok.extern.slf4j.Slf4j;
 import org.iproduct.spring.rabbitmq.config.DestinationsConfig;
 import org.iproduct.spring.rabbitmq.rabbitmq.MessageListenerContainerFactory;
 import org.springframework.amqp.core.*;
@@ -14,6 +15,7 @@ import reactor.core.publisher.Mono;
 import java.time.Duration;
 
 @RestController
+@Slf4j
 public class TopicEndpoint {
 
     @Autowired
@@ -31,6 +33,7 @@ public class TopicEndpoint {
     @GetMapping(
             value = "/topic/{name}",
             produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+
     public Flux<?> receiveMessagesFromTopic(@PathVariable String name) {
         DestinationsConfig.DestinationInfo d = destinationsConfig.getTopics().get(name);
         if (d == null) {
@@ -43,6 +46,7 @@ public class TopicEndpoint {
         Flux<String> f = Flux.<String> create(emitter -> {
             mlc.setupMessageListener((MessageListener) m -> {
                 String payload = new String(m.getBody());
+                log.info(payload);
                 emitter.next(payload);
             });
             emitter.onRequest(v -> {
